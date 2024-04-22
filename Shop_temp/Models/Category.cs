@@ -10,7 +10,7 @@ namespace Shop_temp.Models
         [Required]
         [MaxLength(30)]
         [DisplayName("Category Name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [DisplayName("Dispay Order")]
         [Range(1, 100, ErrorMessage = "Dispkay Order must be between 1-100")]
