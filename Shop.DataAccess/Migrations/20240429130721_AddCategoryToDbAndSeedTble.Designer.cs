@@ -4,11 +4,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ShopProject.Data;
+using BookShop.DataAccess.Data;
+
+
 
 #nullable disable
 
-namespace ShopProject.Migrations
+namespace BookShopProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240429130721_AddCategoryToDbAndSeedTble")]
@@ -24,7 +26,7 @@ namespace ShopProject.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ShopProject.Models.Category", b =>
+            modelBuilder.Entity("BookShopProject.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

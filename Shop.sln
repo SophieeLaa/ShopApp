@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopProject", "ShopProject\ShopProject.csproj", "{D23D3EF9-B98A-439C-9036-6EC1F0C131A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop", "ShopProject\BookShop.csproj", "{D23D3EF9-B98A-439C-9036-6EC1F0C131A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.DataAccess", "Shop.DataAccess\Shop.DataAccess.csproj", "{0865BA31-9424-43A7-B44B-BFFC33891950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.DataAccess", "Shop.DataAccess\BookShop.DataAccess.csproj", "{0865BA31-9424-43A7-B44B-BFFC33891950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Models", "Shop.Models\Shop.Models.csproj", "{F6150516-A165-46E2-B2C2-224859F461E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Models", "Shop.Models\BookShop.Models.csproj", "{F6150516-A165-46E2-B2C2-224859F461E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Utility", "Shop.Utility\Shop.Utility.csproj", "{5E13B65B-C19B-4E69-A4D0-7706E9939362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Utility", "Shop.Utility\BookShop.Utility.csproj", "{5E13B65B-C19B-4E69-A4D0-7706E9939362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

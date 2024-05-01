@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ShopProject.Migrations
+namespace BookShopProject.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryToDbAndSeedTble : Migration
