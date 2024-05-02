@@ -17,11 +17,10 @@ namespace BookShop.DataAccess.Repository
             _db = db;
             Category = new CategoryRepository(_db);
         }
-        public ICategoryRepository CategoryRepository => throw new NotImplementedException();
-
-        public void save()
+       
+        public void Save()
         {
-            throw new NotImplementedException();
+           _db.SaveChanges();
         }
     }
 }
