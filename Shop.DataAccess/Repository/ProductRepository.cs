@@ -19,9 +19,11 @@ namespace BookShop.DataAccess.Repository
             _db = db;
         }
 
-        public void Update(Product product)   
+        public void Update(Product obj)   
         {
-            _db.Poducts.Update(product);
+            _db.Poducts.Update(obj);
         }
+
+      
     }
 }
