@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BookShop.Models.Models
 {
-    public class Poduct
+    public class Product
     {
         [Key]
         public int Id { get; set; }
