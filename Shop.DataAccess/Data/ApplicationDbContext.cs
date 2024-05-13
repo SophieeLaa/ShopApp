@@ -11,7 +11,7 @@ namespace BookShop.DataAccess.Data
 
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Poducts { get; set; }
+        public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
@@ -31,7 +31,8 @@ namespace BookShop.DataAccess.Data
                     ListPrice = 99,
                     Price = 90,
                     Price50 = 85,
-                    Price100 = 80
+                    Price100 = 80,
+                    CategoryId =  1
                 },
                 new Product
                 {
@@ -43,7 +44,8 @@ namespace BookShop.DataAccess.Data
                     ListPrice = 95,
                     Price = 87,
                     Price50 = 82,
-                    Price100 = 72
+                    Price100 = 72,
+                    CategoryId = 1
                 },
                 new Product
                 {
@@ -55,7 +57,8 @@ namespace BookShop.DataAccess.Data
                     ListPrice = 88,
                     Price = 80,
                     Price50 = 78,
-                    Price100 = 68
+                    Price100 = 68,
+                    CategoryId = 2
                 }
                 );
         }
